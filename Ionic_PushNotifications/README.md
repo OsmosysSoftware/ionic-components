@@ -8,7 +8,7 @@ This consists of a piece of code that handles the push notifications in an Ionic
 * [Phonegap push notifications plugin.](https://github.com/phonegap/phonegap-plugin-push#phonegap-plugin-push-)
 * [GCM sender ID](https://developers.google.com/cloud-messaging/gcm)
 
-## Usages
+## Usage
 The factory.js file should be included in index.html file for it's usage. A sample is shown in the image below:
 
 Use the factory methods in your controller for registering to / recieving the push notifications. A sample piece of code is given below:
