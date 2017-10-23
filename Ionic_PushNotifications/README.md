@@ -9,7 +9,11 @@ This consists of a piece of code that handles the push notifications in an Ionic
 * [GCM sender ID](https://developers.google.com/cloud-messaging/gcm)
 
 ## Usage
-The factory.js file should be included in index.html file for it's usage. A sample is shown in the image below:
+The PushNotificationFactory.js file should be included in index.html file as given below:
+
+```html
+<script src="PATH OF THE PushNotificationFactory.js FILE" type="text/javascript"></script>
+```
 
 Use the factory methods in your controller for registering to / recieving the push notifications. A sample piece of code is given below:
 
